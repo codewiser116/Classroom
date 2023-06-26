@@ -2,16 +2,20 @@ package Day9;
 
 public class Main {
     public static void main(String[] args) {
-        // greater 0 , equals to 0, less than 0
-        int number = -5;
-        if(number > 0){
-            System.out.println(number +" is greater than 0");
+        int age = 55;
+        // 1st level - 4 letters or more - child
+        // 2nd level - 6 letters or more - teen
+        // 3rld level - 10 letters or more - adult
+        if (age>=18 && age <=50){
+            System.out.println("It is an adult");
         }
-        else if(number == 0){
-            System.out.println(number +" equals to 0");
+
+        else if(age>50){
+            System.out.println("It is a senior");
         }
-        else{
-            System.out.println(number + " less than 0");
+        else if(age>12){
+            System.out.println("It is a teen");
         }
+
     }
 }

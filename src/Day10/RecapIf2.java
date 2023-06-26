@@ -61,17 +61,17 @@ public class RecapIf2 {
         //
         //* We are in trouble if the parrot is talking and the hour is before 7 or after 20
         //return true
-//        boolean talking = scanner.nextBoolean();
-//        int hour = scanner.nextInt();
-//        System.out.println(talking + " "+ hour);
-//        if(hour < 0 || hour > 23){
-//            System.out.println("You entered wrong hours");
-//        }
-//        else if(talking && (hour < 7 || hour > 20)){
-//            System.out.println("We are in trouble");
-//        }
-//        else{
-//            System.out.println("we are not in trouble");
-//        }
+        boolean talking = scanner.nextBoolean();
+        int hour = scanner.nextInt();
+        System.out.println(talking + " "+ hour);
+        if(hour < 0 || hour > 23){
+            System.out.println("You entered wrong hours");
+        }
+        else if(talking && (hour < 7 || hour > 20)){
+            System.out.println("We are in trouble");
+        }
+        else{
+            System.out.println("we are not in trouble");
+        }
     }
 }
