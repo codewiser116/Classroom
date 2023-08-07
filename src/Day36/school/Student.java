@@ -19,6 +19,7 @@ public class Student extends Person{
         System.out.println(favoriteTeacher);
     }
 
+
     @Override
     public void person() {
         System.out.println("I want to make my GPA 4.0");

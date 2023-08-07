@@ -30,4 +30,12 @@ public class Person {
     public void myGoalIs(){
         System.out.println("To have a better life");
     }
+
+    public int getMyId(){
+        return id;
+    }
+
+    public String getMyName(){
+        return name;
+    }
 }
