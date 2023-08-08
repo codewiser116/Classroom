@@ -1,6 +1,6 @@
 package Day37.person;
 
-public class Todler implements PersonAble{
+public class Todler implements PersonAble {
 
     @Override
     public void sleep() {
