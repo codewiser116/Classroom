@@ -26,7 +26,5 @@ public class Main {
         amazon.displayItems(); // displays 2 items
         amazon.updateItem("Smartphone1");
         amazon.displayItems(); // displays 2 items
-
-
     }
 }
